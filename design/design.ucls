@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.mycompany.mvn_deleteMe_quickStart.AppTest" project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/test/java/com/mycompany/mvn_deleteMe_quickStart/AppTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="113" width="192" x="144" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.mycompany.mvn_deleteMe_quickStart.AppTestJU4_1" 
+    project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/test/java/com/mycompany/mvn_deleteMe_quickStart/AppTestJU4_1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="455" width="360" x="144" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.mycompany.mvn_deleteMe_quickStart.AppTestSuiteJU4" 
+    project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/test/java/com/mycompany/mvn_deleteMe_quickStart/AppTestSuiteJU4.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="77" width="192" x="376" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.mycompany.mvn_deleteMe_quickStart.AppTestJU4_2" 
+    project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/test/java/com/mycompany/mvn_deleteMe_quickStart/AppTestJU4_2.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="239" width="192" x="544" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.mycompany.mvn_deleteMe_quickStart.App" project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/main/java/com/mycompany/mvn_deleteMe_quickStart/App.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="680" y="103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.mycompany.mvn_deleteMe_quickStart.CannotParse2IntegerException" 
+    project="mvn_deleteMe_quickStart" 
+    file="/mvn_deleteMe_quickStart/src/main/java/com/mycompany/mvn_deleteMe_quickStart/CannotParse2IntegerException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="125" y="101"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="9">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="10" name="app"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

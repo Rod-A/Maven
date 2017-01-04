@@ -1,0 +1,7 @@
+- set JDK version something other than default(1.5) in pom.xml, 
+- set junit 4.x as junit dependency version in pom.xml, 
+- modify build in pom.xml to create executable jar upon running maven goal 'package', 
+- created junit 3.x and 4.x tests/testCases/testSuites,
+- enhanced default the testCase file name patterns in pom.xml,
+- ran junit 3.x and 4.x together
+- ran unit tests from maven (issue "mvn install test" at bash in this project's dir)
